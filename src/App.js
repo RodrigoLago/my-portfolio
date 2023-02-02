@@ -17,8 +17,8 @@ function App() {
         loading ?
           <div className="loader" >
             <ScaleLoader
-              height='90'
-              width='10'
+              height='90px'
+              width='10px'
               color='#00ff9d'
             />
           </div>

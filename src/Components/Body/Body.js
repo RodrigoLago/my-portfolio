@@ -7,6 +7,7 @@ import { Cv } from '../Cv/Cv.js';
 import { Skills } from '../Skills/Skills.js';
 import { Footer } from '../Footer/Footer.js';
 import { ToTopBtn } from '../ToTopBtn/ToTopBtn.js';
+import { Experience } from '../Experience/Experience.js';
 import './Body.css';
 
 export const Body = () => {
@@ -15,9 +16,9 @@ export const Body = () => {
     <Header />
     {/* About Me*/}
     <div id='likes-cv'>
-      <AboutMe/>
-      <Portfolio/>
-      <Cv/>
+      <AboutMe />
+      <Portfolio />
+      <Cv />
     </div>
     <div>
       <hr className="loc-hr" />
@@ -27,6 +28,6 @@ export const Body = () => {
       <Skills />
       <Footer />
     </div>
-    <ToTopBtn/>
+    <ToTopBtn />
   </div>
 }
